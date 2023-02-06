@@ -1,0 +1,50 @@
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#    show-sql: false
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/digitalmoney
+#    username: root
+#    password: root
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.co3mua4qslhn.us-east-1.rds.amazonaws.com:3306/user_profile
+    username: admin
+    password: DigitalMoney*
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_APjpO3XdK/.well-known/jwks.json
+
+
+aws:
+  profile:
+    name: default
+  region: us-east-1
+  cognito:
+    clientId: klua53s184h8i2ceu415vqemi
+    userPoolId: us-east-1_APjpO3XdK
+    connectionTimeout: 2000
+    readTimeout: 2000

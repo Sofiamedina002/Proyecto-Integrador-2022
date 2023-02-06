@@ -1,0 +1,106 @@
+{
+	"id": "b31e03fb-4817-4510-80f1-bf09f5976be6",
+	"name": "Sprint 2",
+	"timestamp": "2022-11-11T20:15:26.904Z",
+	"collection_id": "16755755-e5e2d437-5094-41bf-86e1-5ea6b1ee646d",
+	"folder_id": "16755755-4782b342-2daf-4d0a-8bd1-ea073a613b82",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "164feb93-f6e3-4c07-b0fe-40e753d83932",
+			"name": "Get Transactions",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 3511,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3511
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "22cae8d1-47d3-4c72-b803-44d1b3fd650a",
+			"name": "Post Transaction OK",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 5152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5152
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3538b8a3-1327-4bcb-b8a5-84b71f11c29e",
+			"name": "Post Transaction 400",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 2917,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2917
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b21eb95c-96f3-4e24-8aa3-1bed7bfd5617",
+			"name": "Post Transaction 400 M",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 3410,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3410
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 14990,
+	"collection": {
+		"requests": [
+			{
+				"id": "164feb93-f6e3-4c07-b0fe-40e753d83932",
+				"method": "GET"
+			},
+			{
+				"id": "22cae8d1-47d3-4c72-b803-44d1b3fd650a",
+				"method": "POST"
+			},
+			{
+				"id": "3538b8a3-1327-4bcb-b8a5-84b71f11c29e",
+				"method": "POST"
+			},
+			{
+				"id": "b21eb95c-96f3-4e24-8aa3-1bed7bfd5617",
+				"method": "POST"
+			}
+		]
+	}
+}

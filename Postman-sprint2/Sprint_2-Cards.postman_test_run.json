@@ -1,0 +1,128 @@
+{
+	"id": "875b0400-aa56-40ed-b079-bdd31a1eb3f2",
+	"name": "Sprint 2",
+	"timestamp": "2022-11-11T20:24:12.249Z",
+	"collection_id": "16755755-e5e2d437-5094-41bf-86e1-5ea6b1ee646d",
+	"folder_id": "16755755-7e69cdb2-35fd-4fb2-aff1-6dcf8f73efe5",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "67004a51-f166-47c7-b1b3-5006ac5721ae",
+			"name": "Post Card 200",
+			"url": "http://localhost:8080/accounts/3/cards",
+			"time": 3010,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3010
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "30befbda-9517-4d20-9e8d-46995679049a",
+			"name": "Post Card 409",
+			"url": "http://localhost:8080/accounts/3/cards",
+			"time": 1755,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1755
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "38ec580b-a5f0-4919-bbb7-835e97f1d124",
+			"name": "Get Cards",
+			"url": "http://localhost:8080/accounts/4/cards",
+			"time": 1609,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1609
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "28b762e4-08f6-4a34-be8d-19aee2b5b873",
+			"name": "Get Card By ID 400",
+			"url": "http://localhost:8080/accounts/2/cards/2",
+			"time": 1644,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1644
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3c9427a1-ea01-4dae-9cff-0993bfc57f28",
+			"name": "Get Card By ID 200",
+			"url": "http://localhost:8080/accounts/2/cards/3",
+			"time": 1406,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1406
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9424,
+	"collection": {
+		"requests": [
+			{
+				"id": "67004a51-f166-47c7-b1b3-5006ac5721ae",
+				"method": "POST"
+			},
+			{
+				"id": "30befbda-9517-4d20-9e8d-46995679049a",
+				"method": "POST"
+			},
+			{
+				"id": "38ec580b-a5f0-4919-bbb7-835e97f1d124",
+				"method": "GET"
+			},
+			{
+				"id": "28b762e4-08f6-4a34-be8d-19aee2b5b873",
+				"method": "GET"
+			},
+			{
+				"id": "3c9427a1-ea01-4dae-9cff-0993bfc57f28",
+				"method": "GET"
+			}
+		]
+	}
+}

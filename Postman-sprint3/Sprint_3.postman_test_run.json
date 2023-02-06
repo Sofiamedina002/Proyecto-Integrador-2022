@@ -1,0 +1,150 @@
+{
+	"id": "51ab9046-231d-45f9-b566-bb6db7463e1a",
+	"name": "Sprint 3",
+	"timestamp": "2022-11-25T20:59:23.594Z",
+	"collection_id": "16755755-672858ba-2c31-41b4-b737-01b1fd314cce",
+	"folder_id": "16755755-dada0831-25c7-4650-ba73-0470bc1b9b5e",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "19aa0e99-623f-412a-b418-f85fb96e209b",
+			"name": "Post Transference 200",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 37728,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				37728
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4e6723cc-ab69-43db-b6fe-33edb0c0254d",
+			"name": "Post Transference 400",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 8753,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8753
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "90fce6ce-8c3b-46db-9dfd-2573223ab9e4",
+			"name": "Post Transference 404",
+			"url": "http://localhost:8080/accounts/16/transferences",
+			"time": 6033,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6033
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "15572c7f-11ef-4b48-bb7a-59a409f78fd3",
+			"name": "Post Transference 404",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 5312,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5312
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ea44efc8-adb7-4a58-ae5f-4ae907027d05",
+			"name": "Get All Transactions Order By Date 200",
+			"url": "http://localhost:8080/accounts/2/alltransactions",
+			"time": 642,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				642
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0435d270-86e4-4df8-9986-3adbe84b8abc",
+			"name": "Get Transaction By ID 200",
+			"url": "http://localhost:8080/accounts/2/transactions/9",
+			"time": 2127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2127
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 60595,
+	"collection": {
+		"requests": [
+			{
+				"id": "19aa0e99-623f-412a-b418-f85fb96e209b",
+				"method": "POST"
+			},
+			{
+				"id": "4e6723cc-ab69-43db-b6fe-33edb0c0254d",
+				"method": "POST"
+			},
+			{
+				"id": "90fce6ce-8c3b-46db-9dfd-2573223ab9e4",
+				"method": "POST"
+			},
+			{
+				"id": "15572c7f-11ef-4b48-bb7a-59a409f78fd3",
+				"method": "POST"
+			},
+			{
+				"id": "ea44efc8-adb7-4a58-ae5f-4ae907027d05",
+				"method": "GET"
+			},
+			{
+				"id": "0435d270-86e4-4df8-9986-3adbe84b8abc",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#    show-sql: false
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/digitalmoney
+#    username: root
+#    password: root
+
+# modificar datos de la base
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://cuentas-db.co3mua4qslhn.us-east-1.rds.amazonaws.com:3306/cuentas
+    username: admin
+    password: DigitalMoney*
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_APjpO3XdK/.well-known/jwks.json
+
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
+  version: "0.19.1"
+
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          cognito:
+#            clientId: klua53s184h8i2ceu415vqemi
+#            clientSecret: clientSecret
+#            scope: openid
+#            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
+#            clientName: clientName
+#        provider:
+#          cognito:
+#            issuerUri: https://cognito-idp.{region}.amazonaws.com/{poolId}
+#            user-name-attribute: cognito:username
+
+aws:
+  profile:
+    name: default
+  region: us-east-1
+  cognito:
+    clientId: klua53s184h8i2ceu415vqemi
+    userPoolId: us-east-1_APjpO3XdK
+    connectionTimeout: 2000
+    readTimeout: 2000
+
+
+aliaspath: ""

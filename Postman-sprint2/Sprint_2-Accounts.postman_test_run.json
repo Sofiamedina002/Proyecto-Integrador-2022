@@ -1,0 +1,172 @@
+{
+	"id": "c5ebc0cb-773c-444a-ac66-4cb0c82211f2",
+	"name": "Sprint 2",
+	"timestamp": "2022-11-11T20:13:20.790Z",
+	"collection_id": "16755755-e5e2d437-5094-41bf-86e1-5ea6b1ee646d",
+	"folder_id": "16755755-2a463ddc-1074-463f-b21d-9b0724332300",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cc2220f9-db17-4733-9026-79424eb20ca1",
+			"name": "Get Accounts",
+			"url": "http://localhost:8080/accounts",
+			"time": 1974,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1974
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96c30a00-d7bc-4591-bf1b-bd9f8dc1d1b2",
+			"name": "Get Account By ID",
+			"url": "http://localhost:8080/accounts/3",
+			"time": 1785,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1785
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9c2bb60f-6b66-4e07-8dd8-745083c23d53",
+			"name": "Post Account 200",
+			"url": "http://localhost:8080/accounts/2",
+			"time": 3327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3327
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "81bf040e-37ca-4703-9950-5a2cee7fc820",
+			"name": "Post Account 400",
+			"url": "http://localhost:8080/accounts/111",
+			"time": 1680,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1680
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ea7e6ba-9222-4c38-9545-ddbe31d7c02b",
+			"name": "Patch Account 200",
+			"url": "http://localhost:8080/accounts/2",
+			"time": 3809,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3809
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b8f9dad-7795-4795-9c36-1d7d09ccab59",
+			"name": "Patch Account 400",
+			"url": "http://localhost:8080/accounts/4",
+			"time": 1694,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1694
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ce3be5f-a6d5-48b2-9a47-d22592884f02",
+			"name": "Patch Account 409",
+			"url": "http://localhost:8080/accounts/4",
+			"time": 2080,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2080
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 16349,
+	"collection": {
+		"requests": [
+			{
+				"id": "cc2220f9-db17-4733-9026-79424eb20ca1",
+				"method": "GET"
+			},
+			{
+				"id": "96c30a00-d7bc-4591-bf1b-bd9f8dc1d1b2",
+				"method": "GET"
+			},
+			{
+				"id": "9c2bb60f-6b66-4e07-8dd8-745083c23d53",
+				"method": "POST"
+			},
+			{
+				"id": "81bf040e-37ca-4703-9950-5a2cee7fc820",
+				"method": "POST"
+			},
+			{
+				"id": "9ea7e6ba-9222-4c38-9545-ddbe31d7c02b",
+				"method": "PATCH"
+			},
+			{
+				"id": "7b8f9dad-7795-4795-9c36-1d7d09ccab59",
+				"method": "PATCH"
+			},
+			{
+				"id": "9ce3be5f-a6d5-48b2-9a47-d22592884f02",
+				"method": "PATCH"
+			}
+		]
+	}
+}

@@ -1,0 +1,1351 @@
+{
+	"id": "b543d5d3-c472-43e4-96a5-784cec579645",
+	"name": "Digital Money House",
+	"timestamp": "2022-12-12T19:46:13.768Z",
+	"collection_id": "16755755-5f40e488-2cc4-4b61-b16e-29fff2c85c6c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 43,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a4537b41-a9cb-4b3a-92f2-d479a3ad3dd1",
+			"name": "Get Users Copy",
+			"url": "http://localhost:8080/users",
+			"time": 1298,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1298
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f7c4b0e9-1e4f-4cdd-9816-bd0ef02f1322",
+			"name": "Post User Copy",
+			"url": "http://localhost:8080/users",
+			"time": 2038,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2038
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d298c3ef-ed2e-4042-9ae9-abe05959e56a",
+			"name": "User Logout Copy",
+			"url": "http://localhost:8080/users/logout",
+			"time": 206,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "44d7c1cc-c376-4304-9ac2-af22b0ea6628",
+			"name": "User Login Copy",
+			"url": "http://localhost:8080/users/login",
+			"time": 423,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				423
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fea55a92-1bb1-4d57-bf74-1c23560094c3",
+			"name": "User Login 400",
+			"url": "http://localhost:8080/users/login",
+			"time": 371,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				371
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "b434621b-b247-4e94-bdd6-4677286fea42",
+			"name": "Verify User Copy",
+			"url": "http://localhost:8080/users/verify",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2a9d6c7f-481c-41d5-b6fc-becccd0436e0",
+			"name": "Get Accounts Copy",
+			"url": "http://localhost:8080/accounts",
+			"time": 1305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1305
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "813ef396-077e-4dd7-8ef7-c95dd2d409a2",
+			"name": "Get Account By ID Copy",
+			"url": "http://localhost:8080/accounts/3",
+			"time": 1072,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1072
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "43606073-b090-4d37-9e9e-e48ede0e752d",
+			"name": "Get Account By ID Copy 2",
+			"url": "http://localhost:8080/accounts/3",
+			"time": 9,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "9f38e077-e6be-4745-b1be-f323750ec5e8",
+			"name": "Post Account 200 Copy",
+			"url": "http://localhost:8080/accounts/14",
+			"time": 2218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2218
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ed231033-c843-47b3-ba64-ca763bf26b62",
+			"name": "Post Account 200 Copy 2",
+			"url": "http://localhost:8080/accounts/2",
+			"time": 17,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "d6650bab-a43c-4800-97fb-9fa164f10d37",
+			"name": "Post Account 400 Copy",
+			"url": "http://localhost:8080/accounts/111",
+			"time": 1297,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1297
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "f2d5690b-79c9-457a-9217-8c9b0ab331b4",
+			"name": "Patch Account 200 Copy",
+			"url": "http://localhost:8080/accounts/14",
+			"time": 2124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "679f3087-010e-499a-9b1b-69eee1a966f3",
+			"name": "Patch Account 200 Copy 2",
+			"url": "http://localhost:8080/accounts/3",
+			"time": 9,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "f62e06f1-1aee-4c1a-bf65-d6c7502971f3",
+			"name": "Patch Account 400 Copy",
+			"url": "http://localhost:8080/accounts/4",
+			"time": 1089,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1089
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "f9a42a03-0960-4945-b55e-50b7622fab87",
+			"name": "Patch Account 409 Copy",
+			"url": "http://localhost:8080/accounts/4",
+			"time": 1243,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status code is 409": true
+			},
+			"testPassFailCounts": {
+				"Status code is 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1243
+			],
+			"allTests": [
+				{
+					"Status code is 409": true
+				}
+			]
+		},
+		{
+			"id": "5bf5b991-5c5f-460d-a862-8f169054b1b2",
+			"name": "Get Transactions Copy",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 1250,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1250
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c0e15efa-74e9-4344-81c2-6b2c47de32f5",
+			"name": "Get Transactions Copy 2",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 10,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "938375c4-99e8-4cc8-8967-b83fde8e70c1",
+			"name": "Post Transaction OK Copy",
+			"url": "http://localhost:8080/accounts/4/transactions",
+			"time": 3207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3207
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "98866234-0a8b-4809-bd26-71f75e425612",
+			"name": "Post Transaction OK Copy 2",
+			"url": "http://localhost:8080/accounts/4/transactions",
+			"time": 10,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "97bf5c4d-bda9-4ee5-9a5d-a280b1ba2685",
+			"name": "Post Transaction 400 Copy",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 2181,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2181
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "94cb4dec-e5ef-4832-9c7a-f3796d4af6ed",
+			"name": "Post Transaction 400 M Copy",
+			"url": "http://localhost:8080/accounts/2/transactions",
+			"time": 2219,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2219
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "3bfa547f-7f7c-44fc-a11b-4e326b241e85",
+			"name": "Post Card 200 Copy",
+			"url": "http://localhost:8080/accounts/14/cards",
+			"time": 4890,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4890
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6bfed479-e1b8-4972-8494-d55d95798462",
+			"name": "Post Card 200 Copy 2",
+			"url": "http://localhost:8080/accounts/3/cards",
+			"time": 270,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "96e0cd50-ddef-4149-b025-753964c8c9b1",
+			"name": "Post Card 409 Copy",
+			"url": "http://localhost:8080/accounts/3/cards",
+			"time": 4402,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status code is 409": true
+			},
+			"testPassFailCounts": {
+				"Status code is 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4402
+			],
+			"allTests": [
+				{
+					"Status code is 409": true
+				}
+			]
+		},
+		{
+			"id": "db482af8-ed74-4242-a5e8-8257ba7d6317",
+			"name": "Get Card By ID 404 Copy",
+			"url": "http://localhost:8080/accounts/4/cards/6",
+			"time": 2917,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2917
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "7bce5791-2266-4b9f-b8ca-1159ab3718fb",
+			"name": "Get Card By ID 200 Copy",
+			"url": "http://localhost:8080/accounts/4/cards/7",
+			"time": 1083,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1083
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5b371998-8259-49e5-a789-cbfbba1572f4",
+			"name": "Get Card By ID 200 Copy 2",
+			"url": "http://localhost:8080/accounts/4/cards/7",
+			"time": 11,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "1d8908fb-f643-4139-bea9-b1adb322f218",
+			"name": "Get Cards Copy",
+			"url": "http://localhost:8080/accounts/2/cards",
+			"time": 2166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2166
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c22a3d36-a329-47e9-a902-4388e5435b83",
+			"name": "Patch User Copy",
+			"url": "http://localhost:8080/users/1",
+			"time": 1811,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1811
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5209afde-23ee-44fb-8c76-bfb0d1720f1c",
+			"name": "Get User By ID Copy",
+			"url": "http://localhost:8080/users/1",
+			"time": 1099,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1099
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d0db28fb-aa90-4357-bbb9-01a0fbc2ef62",
+			"name": "Delete Card Copy",
+			"url": "http://localhost:8080/accounts/3/cards/10",
+			"time": 1094,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1094
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "97927176-c8a4-44b0-aeeb-c0291bbd52d5",
+			"name": "Delete Card Copy 2",
+			"url": "http://localhost:8080/accounts/4/cards/13",
+			"time": 68,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "deb5268f-0e01-41b4-9b49-34dbcfb411ba",
+			"name": "Post Transference 200 Copy",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 4111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "33e82b20-852e-43d3-8697-f23e7b03d566",
+			"name": "Post Transference 200 Copy 2",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 9,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "221e071d-dedd-4f57-a369-4241bed76541",
+			"name": "Post Transference 400 Copy",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 3255,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3255
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "479b717e-5c31-45bf-bca5-360c1679b849",
+			"name": "Post Transference 400 Copy",
+			"url": "http://localhost:8080/accounts/16/transferences",
+			"time": 3221,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3221
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "7628b794-af38-491a-b349-9ffeba012371",
+			"name": "Post Transference 404 Copy",
+			"url": "http://localhost:8080/accounts/3/transferences",
+			"time": 3186,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3186
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "fef6bc92-6501-4115-b1ff-12c9ae5945c0",
+			"name": "Get All Transactions Order By Date 200 Copy",
+			"url": "http://localhost:8080/accounts/2/alltransactions",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "08767528-8e84-4253-b7c7-4be2969a4038",
+			"name": "Get All Transactions Order By Date 200 Copy 2",
+			"url": "http://localhost:8080/accounts/2/alltransactions",
+			"time": 10,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "bedb98eb-f451-48c1-9904-ac26e312e595",
+			"name": "Get Transaction By ID 200 Copy",
+			"url": "http://localhost:8080/accounts/2/transactions/9",
+			"time": 1073,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1073
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eaefa612-41a5-4e53-89ca-27cbbf388a70",
+			"name": "Get Transaction By ID 200 Copy 2",
+			"url": "http://localhost:8080/accounts/2/transactions/9",
+			"time": 9,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "08990cb4-0ac8-4d0f-9dbc-1cc8192ab602",
+			"name": "Post User 400",
+			"url": "http://localhost:8080/users",
+			"time": 287,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 59033,
+	"collection": {
+		"requests": [
+			{
+				"id": "a4537b41-a9cb-4b3a-92f2-d479a3ad3dd1",
+				"method": "GET"
+			},
+			{
+				"id": "f7c4b0e9-1e4f-4cdd-9816-bd0ef02f1322",
+				"method": "POST"
+			},
+			{
+				"id": "d298c3ef-ed2e-4042-9ae9-abe05959e56a",
+				"method": "POST"
+			},
+			{
+				"id": "44d7c1cc-c376-4304-9ac2-af22b0ea6628",
+				"method": "POST"
+			},
+			{
+				"id": "fea55a92-1bb1-4d57-bf74-1c23560094c3",
+				"method": "POST"
+			},
+			{
+				"id": "b434621b-b247-4e94-bdd6-4677286fea42",
+				"method": "POST"
+			},
+			{
+				"id": "2a9d6c7f-481c-41d5-b6fc-becccd0436e0",
+				"method": "GET"
+			},
+			{
+				"id": "813ef396-077e-4dd7-8ef7-c95dd2d409a2",
+				"method": "GET"
+			},
+			{
+				"id": "43606073-b090-4d37-9e9e-e48ede0e752d",
+				"method": "GET"
+			},
+			{
+				"id": "9f38e077-e6be-4745-b1be-f323750ec5e8",
+				"method": "POST"
+			},
+			{
+				"id": "ed231033-c843-47b3-ba64-ca763bf26b62",
+				"method": "POST"
+			},
+			{
+				"id": "d6650bab-a43c-4800-97fb-9fa164f10d37",
+				"method": "POST"
+			},
+			{
+				"id": "f2d5690b-79c9-457a-9217-8c9b0ab331b4",
+				"method": "PATCH"
+			},
+			{
+				"id": "679f3087-010e-499a-9b1b-69eee1a966f3",
+				"method": "PATCH"
+			},
+			{
+				"id": "f62e06f1-1aee-4c1a-bf65-d6c7502971f3",
+				"method": "PATCH"
+			},
+			{
+				"id": "f9a42a03-0960-4945-b55e-50b7622fab87",
+				"method": "PATCH"
+			},
+			{
+				"id": "5bf5b991-5c5f-460d-a862-8f169054b1b2",
+				"method": "GET"
+			},
+			{
+				"id": "c0e15efa-74e9-4344-81c2-6b2c47de32f5",
+				"method": "GET"
+			},
+			{
+				"id": "938375c4-99e8-4cc8-8967-b83fde8e70c1",
+				"method": "POST"
+			},
+			{
+				"id": "98866234-0a8b-4809-bd26-71f75e425612",
+				"method": "POST"
+			},
+			{
+				"id": "97bf5c4d-bda9-4ee5-9a5d-a280b1ba2685",
+				"method": "POST"
+			},
+			{
+				"id": "94cb4dec-e5ef-4832-9c7a-f3796d4af6ed",
+				"method": "POST"
+			},
+			{
+				"id": "3bfa547f-7f7c-44fc-a11b-4e326b241e85",
+				"method": "POST"
+			},
+			{
+				"id": "6bfed479-e1b8-4972-8494-d55d95798462",
+				"method": "POST"
+			},
+			{
+				"id": "96e0cd50-ddef-4149-b025-753964c8c9b1",
+				"method": "POST"
+			},
+			{
+				"id": "db482af8-ed74-4242-a5e8-8257ba7d6317",
+				"method": "GET"
+			},
+			{
+				"id": "7bce5791-2266-4b9f-b8ca-1159ab3718fb",
+				"method": "GET"
+			},
+			{
+				"id": "5b371998-8259-49e5-a789-cbfbba1572f4",
+				"method": "GET"
+			},
+			{
+				"id": "1d8908fb-f643-4139-bea9-b1adb322f218",
+				"method": "GET"
+			},
+			{
+				"id": "c22a3d36-a329-47e9-a902-4388e5435b83",
+				"method": "PATCH"
+			},
+			{
+				"id": "5209afde-23ee-44fb-8c76-bfb0d1720f1c",
+				"method": "GET"
+			},
+			{
+				"id": "d0db28fb-aa90-4357-bbb9-01a0fbc2ef62",
+				"method": "DELETE"
+			},
+			{
+				"id": "97927176-c8a4-44b0-aeeb-c0291bbd52d5",
+				"method": "DELETE"
+			},
+			{
+				"id": "deb5268f-0e01-41b4-9b49-34dbcfb411ba",
+				"method": "POST"
+			},
+			{
+				"id": "33e82b20-852e-43d3-8697-f23e7b03d566",
+				"method": "POST"
+			},
+			{
+				"id": "221e071d-dedd-4f57-a369-4241bed76541",
+				"method": "POST"
+			},
+			{
+				"id": "479b717e-5c31-45bf-bca5-360c1679b849",
+				"method": "POST"
+			},
+			{
+				"id": "7628b794-af38-491a-b349-9ffeba012371",
+				"method": "POST"
+			},
+			{
+				"id": "fef6bc92-6501-4115-b1ff-12c9ae5945c0",
+				"method": "GET"
+			},
+			{
+				"id": "08767528-8e84-4253-b7c7-4be2969a4038",
+				"method": "GET"
+			},
+			{
+				"id": "bedb98eb-f451-48c1-9904-ac26e312e595",
+				"method": "GET"
+			},
+			{
+				"id": "eaefa612-41a5-4e53-89ca-27cbbf388a70",
+				"method": "GET"
+			},
+			{
+				"id": "08990cb4-0ac8-4d0f-9dbc-1cc8192ab602",
+				"method": "POST"
+			}
+		]
+	}
+}

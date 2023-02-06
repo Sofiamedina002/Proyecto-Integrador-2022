@@ -1,0 +1,36 @@
+server:
+  servlet:
+    context-path: /user-profile/api
+  port: 8080
+
+management:
+  info:
+    git:
+      mode: "simple"
+  endpoints:
+    web:
+      base-path: /management
+      path-mapping:
+        health: healthcheck
+      exposure:
+        include: "info,health"
+
+
+
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
+  version: "0.18.1"
+  show-actuator: true
+
+aws:
+  profile:
+    name: default
+  region: us-east-1
+  cognito:
+    clientId: 2pd7u8cvhpuoe2q3fs0g4jp8kq
+    userPoolId: us-east-1_APjpO3XdK
+    connectionTimeout: 2000
+    readTimeout: 2000
+
+

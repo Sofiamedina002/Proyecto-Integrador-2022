@@ -1,0 +1,62 @@
+{
+	"id": "6309ee6a-fb29-4ce4-ac8f-339427df2864",
+	"name": "Sprint 2",
+	"timestamp": "2022-11-11T20:09:38.888Z",
+	"collection_id": "16755755-e5e2d437-5094-41bf-86e1-5ea6b1ee646d",
+	"folder_id": "16755755-4a315d74-c223-4759-9fce-31b95b216103",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9ce04596-3bde-450e-aa6e-61f114fe2efd",
+			"name": "Patch User",
+			"url": "http://localhost:8080/users/1",
+			"time": 5296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5296
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f02ca9f6-34f5-499b-a50f-e3a94020c814",
+			"name": "Get User By ID",
+			"url": "http://localhost:8080/users/1",
+			"time": 1585,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1585
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6881,
+	"collection": {
+		"requests": [
+			{
+				"id": "9ce04596-3bde-450e-aa6e-61f114fe2efd",
+				"method": "PATCH"
+			},
+			{
+				"id": "f02ca9f6-34f5-499b-a50f-e3a94020c814",
+				"method": "GET"
+			}
+		]
+	}
+}
